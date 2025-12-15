@@ -1,0 +1,13 @@
+Database relationships describe how tables are connected to each other.
+
+Types of relationships:
+
+a)One-to-One (1:1)
+One row in a table is related to one row in another table.
+
+b)One-to-Many (1:N)
+One row in a table is related to many rows in another table (the most common type).
+
+c)Many-to-Many (M:N)
+Rows in one table can relate to many rows in another table, and vice versa.
+➡️ In this case, you need a new table (called a link table) to store the relationships.
