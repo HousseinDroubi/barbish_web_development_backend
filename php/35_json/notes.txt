@@ -1,0 +1,9 @@
+JSON stands for JavaScript Object Notation.
+JSON is a lightweight format for storing and exchanging data. It represents data as key-value pairs (like objects) and arrays, and it’s human-readable.
+
+Why we use JSON:
+
+1) Data exchange: Commonly used to send data between a web server and a client (like a browser).
+2) Language-independent: Works with PHP, JavaScript, Python, etc.
+3) Easy to read and write: Both humans and machines can understand it.
+4) Compact format: Smaller than XML, which makes it faster to transfer

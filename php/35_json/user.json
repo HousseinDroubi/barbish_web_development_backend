@@ -1,0 +1,11 @@
+{
+  "name": "Houssein",
+  "age": 28,
+  "is_graduate": true,
+  "skills": ["HTML", "CSS", "JS", "React", "ExpressJS", "MySQL"],
+  "address": {
+    "country": "Lebanon",
+    "country_code": "LB",
+    "region": "Beqaa"
+  }
+}
