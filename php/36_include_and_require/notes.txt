@@ -1,0 +1,2 @@
+difference between include and require:
+include allows the script to continue on failure while require stops execution on failure.

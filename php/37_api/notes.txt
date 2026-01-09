@@ -1,0 +1,3 @@
+1) $_GET – A PHP superglobal array containing data sent via URL query parameters (HTTP GET).
+2)json_decode(file_get_contents("php://input"), true) – Reads raw HTTP request body and decodes JSON data into an associative array.
+3)isset – Checks whether a variable is set and not null; returns true or false.
