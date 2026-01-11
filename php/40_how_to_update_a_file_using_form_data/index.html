@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="file" id="input" />
+    <button id="button">Send</button>
+    <script>
+      const input = document.getElementById("input");
+      const button = document.getElementById("button");
+
+      button.addEventListener("click", async () => {
+        if (input.files.length === 0) {
+          alert("Please select a file");
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("image", input.files[0]); // append the selected file
+
+        const data = await fetch("http://localhost/learn_php/index.php", {
+          method: "POST",
+          body: formData,
+        });
+        const result = await data.text();
+        console.log(result);
+      });
+    </script>
+  </body>
+</html>
