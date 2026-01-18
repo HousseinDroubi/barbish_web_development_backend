@@ -1,0 +1,39 @@
+1) .env and .env.example:
+Files for environment variables; .env holds actual local secrets/config, .env.example is a template showing required variables.
+.env won't be tracked by git, so you should add it to .gitignore file.
+
+2) .gitignore:
+Specifies files and folders that Git should not track.
+
+3) Composer:
+PHP dependency manager used to install and manage libraries.
+
+4) Create a php project using:
+
+"composer init"
+
+The above command will initialize a php project wil composer.json file
+
+5) Download a package using: 
+
+"composer require package-name"
+
+This above command will install a package and automatically update dependency files.
+
+6) composer.json:
+Defines project dependencies, metadata, and configuration.
+
+7) composer.lock:
+Records the exact versions of installed dependencies to ensure consistent installs.
+
+8) vendor:
+Directory where Composer installs all dependencies and the autoloader.
+
+9) Remove a package using:
+
+"composer remove package-name"
+
+The above package will remove the package, update composer.json, update composer.lock, and delete it from the vendor directory.
+
+10) If you have a project that contains a composer.json file and you want to install the vendor dependencies, run the following command:
+composer install

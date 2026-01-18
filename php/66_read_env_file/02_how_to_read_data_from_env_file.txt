@@ -1,0 +1,7 @@
+How to download vendor/phpdotenv to read environment varialbes .env file:
+
+1) composer init
+2) composer require vlucas/phpdotenv
+3) Add .env file with specific environment variables
+4) Add .env.example which is a copy of .env but DON'T fill the environment variables values
+5) ignore .env from git by adding .env to .gitignore file
