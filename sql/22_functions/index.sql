@@ -16,10 +16,10 @@ AUTO_INCREMENT = 1000;
 
 INSERT INTO customers (first_name,last_name)
 VALUES 
-("Fred","Fish"),
-("Larry","Lobster"),
-("Bubble","Bass"),
-("Poppy","Puff");
+("Mouhammad","Charaf"),
+("Hady","Moustafa"),
+("Alaa","Al-Amin"),
+("Houssein","Droubi");
 
 INSERT INTO transactions (amount,customer_id)
 VALUES
