@@ -7,9 +7,9 @@ CREATE Table customers(
 
 INSERT INTO customers (first_name,last_name)
 VALUES 
-("Fred","Fish"),
-("Larry","Lobster"),
-("Bubble","Bass");
+("Zahraa","Al-Amin"),
+("Hassan","Mouhammad"),
+("Ali","Salem");
 
 
 CREATE TABLE transactions (
