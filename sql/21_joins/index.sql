@@ -8,7 +8,7 @@ CREATE Table customers(
 
 INSERT INTO customers (first_name,last_name)
 VALUES 
-("Fred","Fish"),
+("Lora","Emmy"),
 ("Larry","Lobster"),
 ("Bubble","Bass"),
 ("John","Doe");

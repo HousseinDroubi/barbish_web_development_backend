@@ -1,3 +1,8 @@
+-- 1- INDEX is a BTree data structure.
+-- 2- Indexes are used to find values within a specific column more quickly.
+-- 3- MySQL normally searches sequentially through a column, the longer the column, the more expensive the operation is gonna be.
+-- 4- Sometimes we do have an index on _id
+
 CREATE TABLE employees (
     _id INT PRIMARY KEY AUTO_INCREMENT,
     first_name VARCHAR(40),
