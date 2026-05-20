@@ -1,4 +1,4 @@
--- JOIN in general combines rows from two tables based on a related column.
+-- JOIN in general combines rows from two tables or more based on a related column.
 
 CREATE Table customers(
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -8,10 +8,10 @@ CREATE Table customers(
 
 INSERT INTO customers (first_name,last_name)
 VALUES 
-("Lora","Emmy"),
-("Larry","Lobster"),
-("Bubble","Bass"),
-("John","Doe");
+("Houssein","Al-Amin"),
+("Zayn","Ahmad"),
+("Hady","Jaafar"),
+("Abbass","Charaf");
 
 
 CREATE TABLE transactions (
