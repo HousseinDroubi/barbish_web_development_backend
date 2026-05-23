@@ -9,14 +9,14 @@ CREATE TABLE employees (
     last_name VARCHAR(40),
     hourly_pay DECIMAL(4,2) DEFAULT 0.00,
     job VARCHAR(50),
-    hire_date DATE DEFAULT NOW(),
+    hire_date DATE DEFAULT NOW()
 );
 
-INSERT INTO employees (first_name, last_name, hourly_pay, job, hire_date, supervisor_id,email)
+INSERT INTO employees (first_name, last_name, hourly_pay, job, hire_date)
 VALUES ("Zahraa","Al-Amin",25.50,"manager","2023-01-02"),
-       ("Noor","Hassan",15.00,"cashier","2023-01-03",),
-       ("Houssein","Mahmoud",12.50,"cook","2023-01-04",),
-       ("Hady","Al-Amin",12.50,"cook","2023-01-05",),
+       ("Noor","Hassan",15.00,"cashier","2023-01-03"),
+       ("Houssein","Mahmoud",12.50,"cook","2023-01-04"),
+       ("Hady","Al-Amin",12.50,"cook","2023-01-05"),
        ("Sara","Abdullah",17.25,"asst. manager","2023-01-06");
 
 -- * To show indexes

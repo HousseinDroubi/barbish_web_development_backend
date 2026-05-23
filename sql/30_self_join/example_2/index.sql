@@ -17,7 +17,7 @@ VALUES
 ("Ali","Nasser",12.50,"cook","2023-01-04",5),
 ("Amina","Ahmed",12.50,"cook","2023-01-05",5),
 ("Noor","Hassan",17.25,"asst. manager","2023-01-06",1),
-("Yusuf","Mahmoud",10.00,"janitor","2023-01-07",5);
+("Yusuf","Mahmoud",10.00,"IT","2023-01-07",5);
 
 -- Select all employers with the name of the employer that they report to
 SELECT E1.id, E1.first_name, E2.first_name 
